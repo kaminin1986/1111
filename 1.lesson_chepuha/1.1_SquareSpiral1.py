@@ -3,5 +3,5 @@
 import turtle
 t = turtle.Pen() # всроиный модуль turtle
 for x  in range(100):
-    t.forward(x)
+    t.forward(x+10)
     t.left(90)
